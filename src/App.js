@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { Routes, Route, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Home';
 import ProductPreviewCard from './ProductPreviewCard/ProductPreviewCard';
@@ -36,7 +36,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    
       <div className="App">
 
         {(  menu === false ?
@@ -65,7 +65,7 @@ function App() {
         </Routes>
         
       </div>
-    </BrowserRouter>
+    
     
   );
 }
