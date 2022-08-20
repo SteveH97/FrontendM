@@ -1,0 +1,138 @@
+.CHome__{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: fit-content;
+    min-height: 100vh;
+}
+
+.CHome__filters{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CHome__filters-search{
+    display: flex;
+    margin: 2rem 0 0 5rem;
+    align-items: center;
+}
+
+.CHome__filters-search button{
+    height: 3.1rem;
+    width: 3rem;
+    border-radius: 10px 0 0 10px;
+    border-style: none;
+    background-color: white;
+    align-items: center;
+    padding: 0;
+}
+
+
+.CHome__filters-search button svg{
+    color: gray;
+}
+
+.CHome__filters-search input{
+    border-style: none;
+    border-radius: 0 10px 10px 0;
+    background-color: white;
+    height: 3rem;
+    width: 22rem;
+    align-items: center;
+}
+
+/*  //////////////////////////         DROPDOWN     /////////////////////////////////*/
+.CHome__dropdown{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 5rem;
+    top: 7rem;
+}
+
+.CHome__dropdown-button{
+    display: flex;
+    border-style: none;
+    background-color: white;
+    width: 9rem;
+    justify-content: space-between;
+    padding: 1rem .5rem 1rem .5rem;
+    border-radius: 5px;
+}
+
+.CHome__dropdown-options{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-top: .5rem;
+    padding: .5rem 0 .5rem 0;
+    border-radius: 5px;
+    width: 9rem;
+    height: 7.5rem;
+    background-color: white;
+}
+
+.CHome__dropdown-optionsF{
+    display: none;
+}
+
+.CHome__dropdown-options button{
+    border-style: none;
+    text-align: left;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    background-color: white;
+}
+
+/*//////////////////////////        Cards      /////////////////////////////////*/
+
+.Countries__cards{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3rem;
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 1441px) {
+    .Countries__cards{
+        padding: 1rem 0 0 0;
+        justify-content: center;
+    }
+    
+}
+
+
+/*//////////////////////////     MOBILE       /////////////////////////////////*/
+@media screen and (max-width: 480px){
+    .CHome__filters{
+        flex-direction: column;
+        height: fit-content;
+        align-items: center;
+    }
+
+    .CHome__filters-search{
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .CHome__dropdown{
+        position: absolute;
+        top: 10rem;
+        left: 4rem;
+        right: 0;
+        
+    }
+
+    .CHome__dropdown-button{
+        width: 12rem;
+    }
+
+    .CHome__dropdown-options{
+        width: 12rem;
+    }
+
+    .Countries__cards{
+        padding: 3rem 0 0 0;
+        justify-content: center;
+    }
+}

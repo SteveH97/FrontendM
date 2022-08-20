@@ -1,0 +1,186 @@
+.EHome__{
+    display: flex;
+    width: 90%;
+    height: 100vh;
+}
+
+.EHome__images{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+}
+
+.EHome__images-main{
+    padding-top: 5rem;
+}
+
+.EHome__images-thumbnails{
+    display: flex;
+}
+
+.EHome__images-thumbnails button{
+    border-style: none;
+    background-color: white;
+    padding: 1rem .5rem 0 .5rem;
+}
+
+/* //////////////////////       Pic Info      /////////////////////*/
+.EHome__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+.EHome__info-prices{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.EHome__info-discount{
+    margin-left: 1rem;
+    border-radius: 10px;
+    padding: 4px 8px 4px 8px;
+    background-color: hsl(25, 100%, 94%);
+    color: hsl(26, 100%, 55%);
+    font-weight: 700;
+}
+
+.EHome__info-addcart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.EHome__info-addcartButton{
+    display: flex;
+    background-color: hsl(26, 100%, 55%);
+    color: white;
+    border-style: none;
+    border-radius: 10px;
+    width: 60%;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    transition: .2s;
+}
+
+.EHome__info-addcartButton:active{
+    opacity: 50%;
+}
+
+.EHome__info-quantity{
+    display: flex;
+    background-color: buttonface;
+    align-items: center;
+    width: 35%;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.EHome__info-quantity button{
+    border-style: none;
+}
+
+.EHome__info-quantity button:active{
+    fill: hsl(25, 100%, 94%);
+}
+
+/*////////////////////////         MOBILE   /////////////////////////////////*/
+@media screen and (max-width: 480px){
+    .EHome__{
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+    }
+
+    .EHome__info{
+        padding: 0 1rem 0 1rem;
+    }
+
+    .EHome__info h5{
+        margin: 0;
+    }
+
+    .EHome__info p{
+        margin: 0;
+    }
+
+    .EHome__info-addcart{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .EHome__info-quantity{
+        width: 100%;
+        height: 3rem;
+        justify-content: space-between;
+    }
+
+    .EHome__info-quantity button{
+        margin: 0 1.5rem 0 1.5rem;
+    }
+
+    .EHome__info-addcartButton{
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+    
+}
+
+.EHome__buttons-mobile{
+    display: flex;
+    position: relative;
+    bottom: 25%;
+    padding: 0 1rem 0 1rem;
+    justify-content: space-between;
+}
+
+.EHome__previous{
+    display: flex;
+    z-index: 3;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.EHome__next{
+    display: flex;
+    z-index: 3;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.EHome__info-pricesM{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.EHome__info-pricesM h3{
+    margin: 0;
+    margin-left: 8rem;
+}
+
+@media screen and (max-width: 380px){
+    .EHome__info-pricesM h3{
+        margin-left: 5rem;
+    }
+}
+
+.EHome__info-pricesM h2{
+    font-size: 30px;
+}

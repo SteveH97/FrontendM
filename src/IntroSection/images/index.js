@@ -1,0 +1,13 @@
+export { ReactComponent as ClientAudiophile} from "./client-audiophile.svg";
+export { ReactComponent as ClientDatabiz} from "./client-databiz.svg";
+export { ReactComponent as ClientMaker} from "./client-maker.svg";
+export { ReactComponent as ClientMeet} from "./client-meet.svg";
+export { ReactComponent as ArrowDown} from "./icon-arrow-down.svg";
+export { ReactComponent as ArrowUp} from './icon-arrow-up.svg';
+export { ReactComponent as Calendar} from './icon-calendar.svg';
+export { ReactComponent as CloseMenu} from './icon-close-menu.svg';
+export { ReactComponent as Menu} from './icon-menu.svg';
+export { ReactComponent as Planning} from './icon-planning.svg';
+export { ReactComponent as Reminders} from './icon-reminders.svg';
+export { ReactComponent as Todo} from './icon-todo.svg';
+export {ReactComponent as Logo} from './logo.svg';

@@ -1,0 +1,104 @@
+.HomeI__{
+    display: flex;
+    flex-direction: row;
+    height:85vh;
+    padding: 0 5rem 0 5rem;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.HomeI__leftside{
+    width: 50%;
+}
+
+.HomeI__leftside h1{
+    padding-left: 5rem;
+    padding-top: 8rem;
+    font-size: 80px;
+}
+
+.HomeI__leftside h3{
+    color: gray;
+    padding-left: 5rem;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.HomeI__leftside button{
+    border-style: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 9rem;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+.HomeI__svg{
+    padding-left: 5rem;
+    padding-top: 4rem;
+}
+
+.HomeI__svg svg{
+    padding-right: 3.25rem;
+}
+
+.HomeI__ img{
+    padding: 0 0 0 10%;
+    width: 35%;
+    object-fit: contain;
+}
+
+.HomeI__mobile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.HomeI__mobile h1{
+    color: black;
+    padding-top: 2rem;
+}
+
+.HomeI__mobile h3{
+    text-align: center;
+    color: gray;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.HomeI__mobile button{
+    border-style: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 9rem;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.HomeI__mobile img{
+    width: 100%;
+    padding: 0;
+}
+
+
+
+@media screen and (max-width:480px) {
+    .HomeI__{
+        padding: 0;
+    }
+
+    .HomeI__svg{
+        padding: 3rem 0 0 0;
+    }
+
+    .HomeI__svg svg{
+        padding: 0;
+        transform: scale(.75);
+    }
+
+}

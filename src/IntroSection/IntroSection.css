@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500&display=swap');
+
+.Intro__{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: hsl(0, 0%, 98%);
+    height: 100vh;
+    font-family: 'Epilogue', sans-serif;
+    position: relative;
+}
+
+

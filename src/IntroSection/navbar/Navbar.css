@@ -1,0 +1,129 @@
+.Intro__nav{
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.Intro__nav-links{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transition: .4s;
+}
+
+
+.Intro__nav-links li{
+    padding-left: 2.5rem;
+    color: gray;
+    font-size: 18px;
+}
+
+.Intro__nav-links li:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.Intro__nav-links li button:hover{
+    cursor: pointer;
+}
+
+.Intro__nav-links li button{ 
+    border-style: none;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.Intro__nav-user{ 
+    font-family: 'Epilogue', sans-serif;
+    padding-right: 3rem;
+
+}
+
+.Intro__nav-user button:hover{ 
+    cursor: pointer;
+    color: black;
+}
+
+.Intro__nav-login{
+    border-style: none;
+    background-color: hsl(0, 0%, 98%);
+    color: gray;
+    padding-right: 2rem;
+    font-size: 18px;
+}
+
+.Intro__nav-register{
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 15px;
+    background-color: hsl(0, 0%, 98%);
+    color: gray;
+    font-size: 18px;
+    transition: .4s;
+}
+
+.Intro__nav-register:hover{
+    border-color: black;
+}
+
+
+.Intro__nav-menuButton{
+    border-style: none;
+    background-color: hsl(0, 0%, 98%);
+    padding-right: 4%;
+}
+
+.Intro__nav-sidemenu{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    background-color: white;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 70%;
+    z-index: 3;
+    transition: .4s;
+}
+
+.Intro__nav-closeButton{
+    border-style: none;
+    background-color: white;
+    width: fit-content;
+    padding-left: 84%;
+    padding-top: 10%;
+}
+
+
+@media screen and (max-width: 480px){
+    .Intro__nav-links{
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .Intro__nav-links li{
+        padding-left: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .Intro__nav-user{
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        align-items: center;
+    }
+
+    .Intro__nav-login{
+        padding-bottom: 1rem;
+    }
+
+    .Intro__nav-register{
+        width: 80%;
+    }
+
+    
+}

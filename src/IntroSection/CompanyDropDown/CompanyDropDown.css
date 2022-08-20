@@ -1,0 +1,32 @@
+.CDropDown__{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    
+    width: 8rem;
+    height: 7.5rem;
+    z-index: 3;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 0 0 15px #ccc;
+    top: 4rem;
+    left: 19.5rem;
+}
+
+.CDropDown__item{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 2.5rem;
+    color: gray;
+}
+
+@media screen and (max-width: 480px) {
+    .CDropDown__{
+        position: relative;
+        top: 0;
+        left: 0;
+        box-shadow: none;
+        border-style: none;
+        padding-left: 1rem;
+    }
+}
