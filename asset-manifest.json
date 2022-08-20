@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/github.io/FrontendM/static/css/main.b7531192.css",
-    "main.js": "/github.io/FrontendM/static/js/main.75a0bfcb.js",
+    "main.js": "/github.io/FrontendM/static/js/main.00435dcc.js",
     "static/media/image-hero-desktop.png": "/github.io/FrontendM/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-product-2.jpg": "/github.io/FrontendM/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
     "static/media/image-product-1.jpg": "/github.io/FrontendM/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
@@ -14,8 +14,8 @@
     "static/media/client-maker.svg": "/github.io/FrontendM/static/media/client-maker.3859368b1ba7e579d814353870c9edb0.svg",
     "static/media/client-meet.svg": "/github.io/FrontendM/static/media/client-meet.2d6ffbad4108ea24377c66fe7655736e.svg",
     "static/media/client-audiophile.svg": "/github.io/FrontendM/static/media/client-audiophile.8c670cdffe9fb124c848d53dcbee7913.svg",
-    "index.html": "/github.io/FrontendM/index.html",
     "static/media/icon-delete.svg": "/github.io/FrontendM/static/media/icon-delete.1fd1f1f7d9f8ce5557b44ca3470a18b8.svg",
+    "index.html": "/github.io/FrontendM/index.html",
     "static/media/icon-cart.svg": "/github.io/FrontendM/static/media/icon-cart.539ec608f50e707c94d583ec11acf99d.svg",
     "static/media/icon-plus.svg": "/github.io/FrontendM/static/media/icon-plus.b297868c5f938612f4f099f9f9d73aea.svg",
     "static/media/icon-reminders.svg": "/github.io/FrontendM/static/media/icon-reminders.d573f5028c4469edf76a0b57065af566.svg",
@@ -31,10 +31,10 @@
     "static/media/icon-arrow-down.svg": "/github.io/FrontendM/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/github.io/FrontendM/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
     "main.b7531192.css.map": "/github.io/FrontendM/static/css/main.b7531192.css.map",
-    "main.75a0bfcb.js.map": "/github.io/FrontendM/static/js/main.75a0bfcb.js.map"
+    "main.00435dcc.js.map": "/github.io/FrontendM/static/js/main.00435dcc.js.map"
   },
   "entrypoints": [
     "static/css/main.b7531192.css",
-    "static/js/main.75a0bfcb.js"
+    "static/js/main.00435dcc.js"
   ]
 }
