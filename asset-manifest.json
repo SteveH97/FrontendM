@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/FrontendM/static/css/main.b7531192.css",
-    "main.js": "/FrontendM/static/js/main.7510450c.js",
+    "main.js": "/FrontendM/static/js/main.88d4ff5c.js",
     "static/media/image-hero-desktop.png": "/FrontendM/static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/image-product-2.jpg": "/FrontendM/static/media/image-product-2.c8bb0aaccecdebb16596.jpg",
     "static/media/image-product-1.jpg": "/FrontendM/static/media/image-product-1.520cc50bd13955f55cb2.jpg",
@@ -31,10 +31,10 @@
     "static/media/icon-arrow-down.svg": "/FrontendM/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/FrontendM/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
     "main.b7531192.css.map": "/FrontendM/static/css/main.b7531192.css.map",
-    "main.7510450c.js.map": "/FrontendM/static/js/main.7510450c.js.map"
+    "main.88d4ff5c.js.map": "/FrontendM/static/js/main.88d4ff5c.js.map"
   },
   "entrypoints": [
     "static/css/main.b7531192.css",
-    "static/js/main.7510450c.js"
+    "static/js/main.88d4ff5c.js"
   ]
 }
